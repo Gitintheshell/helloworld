@@ -1,0 +1,121 @@
+HTML  CSS   Result
+Edit on 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+		height: 100%;
+	}
+body {
+	
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-color: #4286f4;
+		background-attachment: fixed;
+		background-image:
+		linear-gradient(
+		  #c4daff, #2171f2
+		);
+		/*#4286f4*/
+}
+body{
+    font-family: raleway, arial, sans-serif;
+    width: 100%;
+    margin: 0 auto;
+	padding: 10px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 25% auto auto 25%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: ".     top-bar     		top-bar    		."             
+                         ".     mainslide        	mainslide       ."
+						 ".		tagline				tagline			."
+						 ".		email				email			."
+						 ".		features			features		."
+						 ".		social_media		social_media	."
+						 ".		email_last			email_last		."
+                         ".     main-footer 		main-footer     .";
+}
+
+
+.top-bar{
+	grid-area: top-bar;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-areas: ".	 title   ."
+}
+
+.title{
+	 grid-area: title;
+	 align-self: start;
+	 text-align: center;
+	 justify-self: center;
+	 color: #e6e8ed;
+}
+
+.mainslide{
+	grid-area: mainslide;
+	justify-self: center;
+	display: grid;
+	grid-template-columns: 1% auto 1%;
+	grid-template-areas: ".   hero  ."
+	
+}
+/*experiment to make image smaller*/
+.hero{
+	grid-area: hero;
+	 align-self: start;
+	 justify-self: center;
+	 max-height: 100%;
+	 max-width: 100%;
+}
+
+.tagline{
+	grid-area: tagline;
+	text-align: center;
+}
+
+.email{
+	grid-area: email;
+	text-align: center;
+}
+
+.features{
+	grid-area: features;
+	text-align: center;
+}
+
+.social_media{
+	grid-area: social_media;
+	text-align: center;
+}
+
+.email_last{
+	grid-area: email_last;
+	text-align: center;
+}
+
+.main-footer{
+	grid-area: main-footer;
+	text-align: center;
+	align-self: end;
+}
+
+/*Styling*/
+h1 {
+	color: #e6e8ed;
+}
+h2 {
+	color: #e6e8ed;
+	font-size: 12pt;
+}
+
+img {
+	max-width: 100%;
+	height: auto%;
+}
