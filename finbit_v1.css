@@ -91,6 +91,24 @@ body{
 .social_media{
 	grid-area: social_media;
 	text-align: center;
+	display: grid;
+	grid-template-columns: 25% auto 25%;
+	grid-template-areas: 	"soctext soctext soctext"
+							".	 	thumbgroup  	 ."
+}
+
+.soctext{
+	grid-area: soctext;
+	align-self: start;
+	text-align: center;
+	justify-self: center;
+}
+
+.thumbgroup{
+	 grid-area: thumbgroup;
+	 align-self: start;
+	 justify-self: center;
+	 max-height: 100%;
 }
 
 .email_last{
@@ -107,18 +125,43 @@ body{
 /*Styling*/
 h1 {
 	color: #e6e8ed;
+	font-size: 28pt;
+	font-weight: 900;
+	letter-spacing: 1px;
+	font-family: "Rubik", "Josefin Sans", "Anton", "Muli", "Oswald";
+	
 }
 h2 {
 	color: #e6e8ed;
 	font-size: 12pt;
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-family: "Rubik", "Josefin Sans", "Anton", "Muli", "Oswald";
 }
-
+p{
+	color: #e6e8ed;
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-family: "Rubik", "Josefin Sans", "Anton", "Muli", "Oswald";
+}
+li{
+	color: #e6e8ed;
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-family: "Rubik", "Josefin Sans", "Anton", "Muli", "Oswald";
+}
+p.copyright{
+	color: #e6e8ed;
+	font-weight: 100;
+	letter-spacing: -1px;
+	font-family: "Times New Roman";
+}
 .heroimg {
 	max-width: 100%;
 	height: auto%;
 }
 
-img.thumb{
-	max-width: 25%;
-	height: auto;
+.thumb{
+	max-width: 100%;
+	height:  auto;
 }
