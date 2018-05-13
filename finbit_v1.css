@@ -17,11 +17,9 @@ body {
 		background-size: cover;
 		background-color: #4286f4;
 		background-attachment: fixed;
-		background-image:
-		linear-gradient(
-		  #c4daff, #2171f2
-		);
-		/*#4286f4*/
+		background-image: url("assets/BACKGROUND_REEF.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
 }
 body{
     font-family: raleway, arial, sans-serif;
