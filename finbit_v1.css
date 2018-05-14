@@ -132,20 +132,27 @@ h1 {
 	
 }
 h2 {
-	color: #e6e8ed;
-	font-size: 12pt;
+	color: #f4f4f7;
+	font-size: 16pt;
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-family: "Rubik", "Josefin Sans", "Anton", "Muli", "Oswald";
+}
+h3{
+	color: #f4f4f7;
+	font-size: 18pt;
 	font-weight: 600;
 	letter-spacing: 1px;
 	font-family: "Rubik", "Josefin Sans", "Anton", "Muli", "Oswald";
 }
 p{
-	color: #e6e8ed;
+	color: #f4f4f7;
 	font-weight: 600;
 	letter-spacing: 1px;
 	font-family: "Rubik", "Josefin Sans", "Anton", "Muli", "Oswald";
 }
 li{
-	color: #e6e8ed;
+	color: #ffffff;
 	font-weight: 600;
 	letter-spacing: 1px;
 	font-family: "Rubik", "Josefin Sans", "Anton", "Muli", "Oswald";
@@ -164,4 +171,25 @@ p.copyright{
 .thumb{
 	max-width: 100%;
 	height:  auto;
+}
+
+.button {
+    background-color: #f7ff0f;
+    border: none;
+    color: #000000;
+	font-weight: 900;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.spacer{
+	height:100px;
+}
+div.list{
+	background-color: #02a7eb;
 }
